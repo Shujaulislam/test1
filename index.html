@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+       .navbar-brand img
+  {
+    width: 190px;
+  }
+     #con
+     {
+      bottom: 10%;
+      left: 20%;
+     }
+     .add
+  {   
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      /* or 162% */
+      font-family: 'Poppins', sans-serif;
+      color: #3E3E3E;
+  }
+
+.header-para
+{
+      text-align: justify;
+      padding: 10px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      /* or 162% */
+      font-family: 'Poppins', sans-serif;
+      color: #3E3E3E;
+  
+}
+.card-body
+ {
+      min-height: 300px;
+      min-width: 300px;
+      margin-right: 5px;
+      position: relative;
+  }
+  .card-heading
+  {
+    margin-top: 8px;
+    padding: 10px;
+    color: #033454;
+  }
+
+  .card-para
+{
+    
+      padding: 10px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      /* or 162% */
+      font-family: 'Poppins', sans-serif;
+      color: #3E3E3E;
+}
+
+.why-choose
+{
+  position: relative;
+}
+
+.why-choose-line
+{
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.h3{
+  position: absolute;
+    /* margin-top: 50px; */
+    top: 35%;
+    color: #3398CC;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+    /* margin-left: 20px; */
+    left: 15%;
+}
+
+.why-choose-heading
+{
+    position: absolute;
+    left: 20px;
+    color: #033454;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.why-choose-para
+{
+  margin-top: 50px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-perform
+{
+  
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 260px;
+  height: 159px;
+  margin-bottom: 21px;
+  background-color: aliceblue;
+  border: 0px;
+}
+.sol
+{
+  margin-top: 30px;
+
+}
+
+.sol h1
+{
+  margin-top: 10px;
+  padding: 10px;
+  padding-top: 45px;
+   font-style: normal;
+   font-weight: bolder;
+   line-height: 26px;
+   /* or 162% */
+   font-family: 'Poppins', sans-serif;
+   color: #033454;
+}
+.space img
+{
+  margin-top: 26px;
+}
+
+.people-card
+{
+    border: 0px;
+    margin-top: 12px;
+    max-width: fit-content;
+    border-radius: 20px;
+    margin: auto;
+
+}
+.iframe
+{
+  max-width: -webkit-fill-available;
+  margin-bottom: 35px;
+  border-radius: 20px;
+}
+
+.people-heading
+{
+  font-weight: bolder;
+   line-height: 26px;
+  font-family: 'Poppins', sans-serif;
+  color: #033454;
+  margin-left: 10px;
+}
+
+.people-para
+{
+  padding: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  font-family: 'Poppins', sans-serif;
+  color: #3E3E3E;
+}
+
+.partner-body
+ {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      min-width: 300px;
+      margin-right: 5px;
+      position: relative;
+  }
+
+  .partner-img
+{
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.logo
+{
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.logo img{
+  width: 200px;
+}
+     @media only screen and (max-width: 780px)
+   {
+ #con {
+    display: none;
+  }
+
+.box
+{
+  display: none;
+}
+#img
+{
+  display: none;
+}
+.h3
+{
+  display: none;
+}
+
+.people-heading
+{
+  margin-left: 16px;
+}
+.why-choose-line{
+  display: none;
+}
+
+.why-choose-heading
+{
+  font-size: 30px;
+  margin-top: 20px;
+}
+.why-choose-para
+{
+  margin-top: 70px;
+  text-align: center;
+}
+
+
+
+}
+    </style>
+</head>
+<body>
+  <!--Announcement-->
+  <div class="container-fluid "id="con">
+      <div class="announcement-bar d-flex justify-content-sm-between 
+        "  style="background-color: #033454;">
+        
+        <div class="box m-3 fw-bolder text-white">thinkgrowth@caplineservices.com
+        </div>
+
+        <div class="box"><img src="/images/top-hader.png" alt="">
+            <img src="/images/top-hader2.png" alt="">
+        </div>
+    
+    </div>
+  </div>
+   <!--Announcement end-->
+   
+  <!--Navbar-->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light  bg-light">
+        <a class="navbar-brand" href="#"><img src="/images/Rectangle.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center " id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link add text-dark" href="#">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link add text-dark" href="about-us.html">About Us</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle add text-dark" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+               Solutions
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item add text-dark" href="credentialing.html">Revenue</a>
+                <a class="dropdown-item add text-dark" href="#">Credentialing</a>
+                <a class="dropdown-item add text-dark" href="#">Eligiblity verification</a>
+                <a class="dropdown-item add text-dark" href="#">Specialized Services</a>
+                <a class="dropdown-item  add text-dark" href="#">Dental Billing and collection</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link add text-dark" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle add text-dark" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+               Resources
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item add text-dark" target="_blank" href="blog.html">Blog</a>
+               
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link add text-dark" href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+          
+        </div>
+        <span class="box fw-bold fs-5 " style="color: #32CCFE;">
+          (888) 444-6041
+      </span>
+      </nav>
+    </div>
+   <!--Navbar End-->
+  
+    <div class="container-fluid " id="con">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/walter-otto-PT70CT6mATQ-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/walter-otto-PT70CT6mATQ-unsplash.jpg"  class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/walter-otto-PT70CT6mATQ-unsplash.jpg"  class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </button>
+      </div>
+ </div>
+    <div class="container-fluid">
+      <div class="row ">
+        
+            <div class="col-md-5 order-md-1 m-5 mx-5" id="img">
+                <img class ="img img-fluid" src="/images/about-image-1.webp" alt="">
+              </div>
+              
+              <div class="col-md-5 col-sm-12 float-right  mt-5">
+          <h2 class="heading " style="color: #033454 ; ">  Welcome to  <span class="fw-bolder">Capline Healthcare Management</span></h2>
+          
+          <p class="header-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At tempora quidem quibusdam quas placeat, similique maiores veritatis, modi ducimus suscipit voluptatibus sapiente odit cum ipsum voluptatum exercitationem vel deserunt inventore fuga aliquid quaerat nobis optio. Ipsum voluptatem porro odio nesciunt quibusdam minima, corrupti laudantium perspiciatis non dolore consequuntur neque ea?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, debitis iure saepe numquam deleniti quas libero omnis laboriosam molestiae nulla quia est a ullam minus sapiente ab quo provident optio quae sequi voluptatem animi commodi aut nemo. Delectus praesentium ducimus corrupti recusandae amet facilis obcaecati veniam culpa laborum ipsum, minus perspiciatis asperiores aperiam tenetur earum optio et pariatur dolore! Voluptatibus amet rerum nesciunt tenetur optio adipisci molestias magnam, voluptatem repellat quis aliquid at eius, accusantium nisi corrupti! Quisquam quia voluptatibus in. Cupiditate, consequuntur quod. Ipsa magni harum similique beatae hic eaque aut nesciunt. Minus ipsa ad, maiores impedit assumenda cum.
+          </p>
+         
+        </div>
+        
+      </div>
+      </div>
+
+
+<!---Solutuin we offer-->
+
+      <div class="contaienr-fluid bg-light">
+        <div class="text-center sol">
+          <h1 >Solutions we offer
+            <div class="space">
+              <img src="./images/Rectangle 566.jpg" class="img img-fluid" alt="">
+            </div>
+          </h1>
+        </div>
+
+       
+  <!--Card starts-->
+    <div class="container-fluid py-2">
+    <div class="d-flex overflow-auto flex-row flex-nowrap">
+        
+
+        <div class="card bg-light border-0 card-body">
+        <div class="card  card-img">
+          <img src="./images/Credentialing.jpg" alt="">
+        </div>
+        <div class="card-text" style="background-color: #fff;">
+          <h3 class="text-center card-heading">Revenue Cycle Management</h3>
+          <p class="text-center card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deserunt provident et enim facere explicabo optio expedita tempore ex alias!</p>
+        </div>
+      </div>
+
+      <div class="card bg-light border-0 card-body">
+        <div class="card card-img">
+          <img src="./images/Credentialing.jpg" alt="">
+        </div>
+        <div class="card-text" style="background-color: #fff;">
+          <h3 class="text-center card-heading">Credentialing</h3>
+          <p class="text-center card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deserunt provident et enim facere explicabo optio expedita tempore ex alias!</p>
+        </div>
+      </div>
+
+      <div class="card bg-light border-0 card-body">
+        <div class="card card-img">
+          <img src="./images/Credentialing.jpg" alt="">
+        </div>
+        <div class="card-text" style="background-color: #fff;">
+          <h3 class="text-center card-heading">Eligibility Verification</h3>
+          <p class="text-center card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deserunt provident et enim facere explicabo optio expedita tempore ex alias!</p>
+        </div>
+      </div>
+
+      <div class="card bg-light border-0 card-body">
+        <div class="card card-img">
+          <img src="./images/Credentialing.jpg" alt="">
+        </div>
+        <div class="card-text" style="background-color: #fff;">
+          <h3 class="text-center card-heading">Specialized Services For Healthcare</h3>
+          <p class="text-center card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deserunt provident et enim facere explicabo optio expedita tempore ex alias!</p>
+        </div>
+      </div>
+
+      
+    </div>
+
+
+
+  </div>
+  <!--Card End-->
+      </div>
+
+    <!---Solutuin we offer end-->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col md-6 why-choose">
+          <div class="why-choose-line">
+            <img src="./images/Rectangle 566.jpg" class="img img-fluid" alt="">
+          </div>
+          <h3 class="h3">Capline Healthcare Management</h3>
+          <h1 class=" col-sm-12 why-choose-heading">Why Choose Capline?</h1>
+        </div>
+
+        <div class="col-md-6">
+          <p class="why-choose-para">At Capline Healthcare Management, we have extensive experience, impeccable list of solutions, and ample resources to work side by side with our clients and see them foster in their business.</p>
+        </div>
+
+      </div>
+    </div>
+
+<!--performance-->
+    <div class="container-fluid">
+      <div class="row mt-5 justify-content-center">
+      <div class="card card-perform col-md-3">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 style="font-style:'Poppins', sans-serif;color: #033454;">400+</h2>
+            <span style="font-style:'Poppins', sans-serif;color: #3E3E3E; font-size: 20px;">clients Served</span>
+          </div>
+          <div class="col-md-3">
+            <img src="./images/User.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="card card-perform col-md-3">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 style="font-style:'Poppins', sans-serif;color: #033454;">400+</h2>
+            <span style="font-style:'Poppins', sans-serif;color: #3E3E3E; font-size: 20px;">clients Served</span>
+          </div>
+          <div class="col-md-3">
+            <img src="./images/User.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="card card-perform col-md-3">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 style="font-style:'Poppins', sans-serif;color: #033454;">400+</h2>
+            <span style="font-style:'Poppins', sans-serif;color: #3E3E3E; font-size: 20px;">clients Served</span>
+          </div>
+          <div class="col-md-3">
+            <img src="./images/User.png" alt="">
+          </div>
+        </div>
+      </div>
+           <div class="card  card-perform col-md-3">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 style="font-style:'Poppins', sans-serif;color: #033454;">400+</h2>
+            <span style="font-style:'Poppins', sans-serif;color: #3E3E3E; font-size: 20px;">clients Served</span>
+          </div>
+          <div class="col-md-3">
+            <img src="./images/User.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+<!--performance end-->
+ 
+<!---What people say-->
+<div class="container-fluid bg-light">
+  <div class="text-center sol">
+    <h1 >What People Say
+      <div class="space">
+        <img src="./images/Rectangle 566.jpg" class="img img-fluid" alt="">
+      </div>
+    </h1>
+  </div>
+  <div class="container-fluid bg-light">
+    
+
+    <div  class="card people-card" style="background-color: #fff;">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="text-center">
+          <div class="embed-responsive embed-responsive-16by9" style="padding: 20px;">
+            <iframe class="embed-responsive-item iframe"  src="https://www.youtube.com/embed/cwaXHqQ-np0">
+            </iframe>
+          </div>
+        </div>
+        </div>
+
+        <di class=" people col-md-6" >
+          <h4 class="people-heading" style="margin-top: 25px;">Lorem, ipsum.</h4>
+          <p class="people-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ut ipsam cumque dolor quidem doloremque nulla quae fugit? Molestiae minus cum, laboriosam nesciunt doloremque adipisci qui nemo nisi eveniet ratione quisquam similique ab ducimus magni vel perferendis? Alias cupiditate ipsum aperiam asperiores rem laborum odit voluptas hic laboriosam unde. Ipsam!</p>
+        </di>
+      </div>
+     
+    </div>
+   
+ 
+     </div>
+   
+   <!--our partner-->
+<div class="container-fluid">
+  <div class="text-center sol">
+    <h1 >Clients We Work With
+      <div class="space">
+        <img src="./images/Rectangle 566.jpg" class="img img-fluid" alt="">
+      </div>
+    </h1>
+  </div>
+<!--Card starts-->
+<div class="container-fluid py-2">
+  <div class="d-flex overflow-auto flex-row flex-nowrap">
+      
+
+      <div class="card bg-light border-0 partner-body">
+        <div class="card bg-light  border-0  partner-img">
+          <img src="./images/partner.png" alt="">
+        </div>
+    </div>
+
+    <div class="card bg-light border-0 partner-body">
+      <div class="card bg-light  border-0  partner-img">
+        <img src="./images/partner2.png" alt="">
+      </div>
+  </div>
+
+  <div class="card bg-light border-0 partner-body">
+    <div class="card bg-light  border-0  partner-img">
+      <img src="./images/partner3.png" alt="">
+    </div>
+</div>
+
+      <div class="card bg-light border-0 partner-body">
+      <div class="card bg-light  border-0  partner-img">
+        <img src="./images/partner.png" alt="">
+      </div>
+  </div>
+  <div class="card bg-light border-0 partner-body">
+    <div class="card bg-light  border-0  partner-img">
+      <img src="./images/partner2.png" alt="">
+    </div>
+</div>
+
+<div class="card bg-light border-0 partner-body">
+  <div class="card bg-light  border-0  partner-img">
+    <img src="./images/partner3.png" alt="">
+  </div>
+</div>
+    
+  </div>
+
+
+
+</div>
+<!--Card End-->
+  
+</div>
+
+<!--our partner End-->
+ </div>
+<!---What people say end-->
+
+
+
+<!-- Footer -->
+    <div class="container-fluid">
+     
+     <footer class="text-center text-lg-start  " style="background-color: #033454;">
+      
+    
+         <div class="container-fluid text-center text-md-start mt-5">
+           <!-- Grid row -->
+           <div class="row mt-3">
+             <!-- Grid column -->
+             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+               <!-- Content -->
+               <div class=" col-sm-12 logo">
+              <img src="./images/Rectangle.png" class="mt-3" alt="">
+            </div>
+               <p class="text-white">
+                 Here you can use rows and columns to organize your footer content. Lorem ipsum
+                 dolor sit amet, consectetur adipisicing elit.
+               </p>
+             </div>
+           
+            
+             
+             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+               <!-- Links -->
+               <h6 class="text-uppercase mt-5 text-white fw-bold mb-4">
+                 Contact
+               </h6>
+               <p class="text-white"><i class="fas fa-home me-3  text-white"></i> New York, NY 10012, US</p>
+               <p class="text-white">
+                 <i class="fas fa-envelope me-3 text-white"></i>
+                 info@example.com
+               </p>
+               <p class="text-white"><i class="fas fa-phone me-3 "></i> + 01 234 567 88</p>
+               <p class="text-white"><i class="fas fa-print me-3 text-white" ></i> + 01 234 567 89</p>
+             </div>
+             <!-- Grid column -->
+           </div>
+           <!-- Grid row -->
+         </div>
+       </section>
+       <!-- Section: Links  -->
+     
+       <!-- Copyright -->
+       <div class="text-center text-white p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        Copyright © 2012-2021 Capline Healthcare management | All rights reserved.
+        
+       </div>
+       <!-- Copyright -->
+     </footer>
+     <!-- Footer -->
+    </div>
+<!--Footer end-->
+
+
+</body>
+</html>
